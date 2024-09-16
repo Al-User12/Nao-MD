@@ -56,7 +56,7 @@ function connect(PORT) {
     </head>
     <body>
     <div id="clock-container">
-    <div id="name">Shirokami Ryzen</div>
+    <div id="name">Archilez</div>
     <div id="clock-wib"></div>
     <div id="clock-wita"></div>
     <div id="clock-wit"></div>

@@ -26,7 +26,7 @@ handler.help = ['toanime']
 handler.tags = ['anime', 'ai']
 handler.command = /^(toanime)$/i
 
-handler.register = true
+handler.register = false
 handler.limit = 3
 
 export default handler

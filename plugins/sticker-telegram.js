@@ -24,7 +24,7 @@ handler.tags = ['sticker']
 handler.command = /^(stic?kertele(gram)?)$/i
 
 handler.limit = 15
-handler.register = true
+handler.register = false
 
 export default handler
 

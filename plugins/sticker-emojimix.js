@@ -23,6 +23,6 @@ handler.help = ['emojimix']
 handler.tags = ['sticker']
 handler.command = /^(emojimix|emix)$/i
 
-handler.register = true
+handler.register = false
 
 export default handler

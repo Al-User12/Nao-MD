@@ -29,7 +29,7 @@ handler.command = /^(slideshare|slidedl|slidesharedl|slidedownload)$/i
 handler.help = ['slideshare <link>']
 handler.tags = ['downloader']
 
-handler.register = true
+handler.register = false
 handler.limit = true
 
 export default handler

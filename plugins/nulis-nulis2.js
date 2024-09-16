@@ -71,6 +71,6 @@ handler.tags = ['nulis']
 handler.command = /^nulis2$/i
 
 handler.limit = true
-handler.register = true
+handler.register = false
 
 export default handler

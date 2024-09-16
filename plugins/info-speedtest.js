@@ -18,6 +18,6 @@ handler.help = ['speedtest']
 handler.tags = ['info']
 handler.command = /^(speedtest)$/i
 
-handler.register = true
+handler.register = false
 
 export default handler

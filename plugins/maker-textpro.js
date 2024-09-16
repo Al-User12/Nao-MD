@@ -38,7 +38,7 @@ handler.help = ['textpro'].map(v => v + ' <effect> <text>')
 handler.tags = ['maker', 'textpro']
 handler.command = /^(textpro)$/i
 
-handler.register = true
+handler.register = false
 handler.limit = true
 
 export default handler

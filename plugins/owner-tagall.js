@@ -13,5 +13,5 @@ handler.tags = ['owner']
 handler.command = ['o-tagall']
 handler.owner = true
 handler.group = true
-handler.register = true
+handler.register = false
 export default handler

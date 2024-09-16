@@ -48,6 +48,6 @@ handler.help = ['cekml <id> <server>']
 handler.tags = ['tools']
 handler.command = /^(cekml|checkml|mlcheck)$/i
 
-handler.register = true
+handler.register = false
 
 export default handler

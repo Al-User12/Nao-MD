@@ -20,6 +20,6 @@ let handler = async (m, { conn, text }) => {
 handler.help = ['blur']
 handler.tags = ['ai']
 handler.command = /^(blur)$/i
-handler.register = true
+handler.register = false
 
 export default handler

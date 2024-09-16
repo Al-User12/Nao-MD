@@ -25,7 +25,7 @@ let handler = async (m, { conn, args, usedPrefix, text, command }) => {
 handler.help = ["infoloker"]
 handler.tags = ["internet"]
 handler.command = /^(infoloker)$/i
-handler.register = true
+handler.register = false
 
 export default handler
 

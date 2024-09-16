@@ -30,7 +30,7 @@ handler.help = ['waifu2x']
 handler.tags = ['anime', 'ai']
 handler.command = /^(waifu2x)$/i
 
-handler.register = true
+handler.register = false
 handler.limit = 3
 
 export default handler

@@ -42,7 +42,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 handler.tags = ['memfess']
 handler.help = ['mfs'].map(v => v + ' <nomor|nama pengirim|pesan>')
 handler.command = /^(mfs|memfess|memfes|confes)$/i
-handler.register = true
+handler.register = false
 handler.private = true
 
 export default handler

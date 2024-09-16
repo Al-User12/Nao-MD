@@ -19,6 +19,6 @@ handler.tags = ['tools']
 handler.command = /^(tourl|upload)$/i
 
 handler.limit = false
-handler.register = true
+handler.register = false
 
 export default handler

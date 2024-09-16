@@ -23,7 +23,7 @@ ${repo.open_issues} Issue${repo.description ? `
 handler.help = ['githubsearch'].map(v => v + ' <pencarian>')
 handler.tags = ['internet']
 
-handler.register = true
+handler.register = false
 handler.command = /^g(ithub|h)s(earch)?$/i
 
 export default handler

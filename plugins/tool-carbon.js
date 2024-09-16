@@ -36,7 +36,7 @@ handler.help = ["carbon"]
 handler.tags = ["ai"]
 handler.command = /^carbon(ify)?$/i
 
-handler.register = true
+handler.register = false
 handler.limit = true
 
 export default handler

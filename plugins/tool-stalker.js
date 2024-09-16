@@ -22,6 +22,6 @@ handler.help = ['wastalk']
 handler.tags = ['stalk']
 handler.command = /^(wa|whatsapp)stalk$/i
 
-handler.register = true
+handler.register = false
 
 export default handler

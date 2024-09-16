@@ -32,7 +32,7 @@ handler.help = ['hd', 'remini']
 handler.tags = ['ai']
 handler.command = /^(hd|remini)$/i
 
-handler.register = true
+handler.register = false
 handler.limit = 10
 handler.disable = false
 

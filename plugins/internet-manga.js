@@ -37,6 +37,6 @@ handler.help = ['mangainfo <manga>']
 handler.tags = ['anime']
 handler.command = /^(mangainfo)$/i
 
-handler.register = true
+handler.register = false
 
 export default handler

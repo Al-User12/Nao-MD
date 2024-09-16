@@ -12,7 +12,7 @@ handler.help = ['jadwaltv']
 handler.tags = ['tools']
 handler.command = /^jadwaltv$/i
 
-handler.register = true
+handler.register = false
 
 export default handler
 

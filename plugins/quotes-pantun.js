@@ -19,7 +19,7 @@ handler.help = ['pantun']
 handler.tags = ['quotes']
 handler.command = /^(pantun)$/i
 
-handler.register = true
+handler.register = false
 
 export default handler
 

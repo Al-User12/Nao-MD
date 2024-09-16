@@ -48,7 +48,7 @@ handler.help = ['animesearch']
 handler.tags = ['anime']
 handler.command = /^(animesearch)$/i
 
-handler.register = true
+handler.register = false
 handler.limit = false
 
 export default handler

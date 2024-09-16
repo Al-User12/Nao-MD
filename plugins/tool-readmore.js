@@ -8,7 +8,7 @@ handler.help = ['readmore'].map(v => v + ' <teks>|<teks>')
 handler.tags = ['tools']
 handler.command = /^(spoiler|hidetext|readmore|selengkapnya)$/i
 
-handler.register = true
+handler.register = false
 
 export default handler
 

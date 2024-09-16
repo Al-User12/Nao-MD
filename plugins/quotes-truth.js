@@ -21,7 +21,7 @@ handler.help = ['truth']
 handler.tags = ['quotes']
 handler.command = /^(truth)$/i
 
-handler.register = true
+handler.register = false
 
 export default handler
 

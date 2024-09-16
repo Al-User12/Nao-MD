@@ -20,7 +20,7 @@ handler.help = ['bacot']
 handler.tags = ['quotes']
 handler.command = /^(bacot)$/i
 
-handler.register = true
+handler.register = false
 
 export default handler
 

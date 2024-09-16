@@ -20,7 +20,7 @@ handler.help = ['q-bucin']
 handler.tags = ['quotes']
 handler.command = /^(q-bucin)$/i
 
-handler.register = true
+handler.register = false
 
 export default handler
 

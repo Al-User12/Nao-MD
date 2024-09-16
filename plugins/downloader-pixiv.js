@@ -23,7 +23,7 @@ handler.tags = ['downloader']
 handler.command = /^(pixivdl)$/i
 
 handler.limit = 2
-handler.register = true
+handler.register = false
 
 export default handler
 

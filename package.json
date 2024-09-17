@@ -1,7 +1,7 @@
 {
-    "name": "shirokami-ryzen",
+    "name": "archilez-bot",
     "version": "8.0.0",
-    "description": "Nao-MD By Ryzen",
+    "description": "A WhatsApp bot made using NodeJS",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -24,7 +24,7 @@
     ],
     "homepage": "https://github.com/ShirokamiRyzen",
     "author": {
-        "name": "ShirokamiRyzen"
+        "name": "archilez"
     },
     "repository": {
         "type": "git",

@@ -16,7 +16,7 @@ function connect(PORT) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="https://avatars.githubusercontent.com/u/76462435?s=400&u=a8207729fb6ec02ecb92f3477e6d13b022b3f52a&v=4" type="image/x-icon">
         <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/76462435?s=400&u=a8207729fb6ec02ecb92f3477e6d13b022b3f52a&v=4" type="image/x-icon">
-        <title>Nao-MD Bot</title>
+        <title>Archilez Bot</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <style>
             body {

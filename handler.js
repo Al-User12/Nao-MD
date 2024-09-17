@@ -409,7 +409,7 @@ export async function handler(chatUpdate) {
                         }
                     }
                     if (m.limit)
-                        m.reply(+m.limit + ' Limit terpakai')
+                        m.reply(+m.limit + ' Limit terpakai, Arigatou Gozaimasu~' + m.sender + ' 🙇')
                 }
                 break
             }

@@ -1,4 +1,5 @@
 import { JSDOM } from 'jsdom';
+import axios from 'axios';
 
 let handler = async (m, { conn, text }) => {
 
@@ -21,11 +22,13 @@ let handler = async (m, { conn, text }) => {
         }
 
  async function fetchAnimeUpdates() {
-        const response = await fetch('https://nontonanimeid.autos/');
-        const body = await response.text();
-      
-        return parseAnimeUpdates(body);
+
+        const response = await axios.get('https://nontonanimeid.autos/');
+        const html = response.data;
+
+        return parseAnimeUpdates(html);
     }
+
 
     const animeUpdates = await fetchAnimeUpdates();
     const animeUpdate = animeUpdates[0];

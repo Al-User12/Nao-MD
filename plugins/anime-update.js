@@ -1,6 +1,6 @@
 import { JSDOM } from 'jsdom';
 
-let handler = async (m, { conn }) => {
+let handler = async (m, { conn, text }) => {
 
  function parseAnimeUpdates(html) {
         const dom = new JSDOM(html);
@@ -31,7 +31,8 @@ let handler = async (m, { conn }) => {
     const animeUpdate = animeUpdates[0];
     const { title, link, episode, imageUrl } = animeUpdate;
     const caption = `*${title}*\nEpisode: ${episode}\n\n${link}`;
-    conn.sendFile(groupId, imageUrl, 'anime.jpeg', caption, m);
+    conn.sendFile(m.chat, imageUrl, 'anime.jpg', caption, m);
+
 }
 
 handler.help = ['anime-today']

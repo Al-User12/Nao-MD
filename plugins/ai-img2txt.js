@@ -26,7 +26,7 @@ handler.help = ['toprompt'];
 handler.tags = ['ai'];
 handler.command = /^(toprompt|img2txt)$/i;
 
-handler.register = true
+handler.register = false
 handler.limit = 5
 
 export default handler

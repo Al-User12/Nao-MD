@@ -39,7 +39,7 @@ let handler = async (m, { conn, text }) => {
 handler.help = ['geminiimage']
 handler.tags = ['ai']
 handler.command = /^(geminiimage)$/i
-handler.register = true
+handler.register = false
 handler.limit = 2
 
 export default handler

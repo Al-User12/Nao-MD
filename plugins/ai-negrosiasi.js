@@ -43,7 +43,7 @@ let handler = async (m, { conn, args }) => {
 handler.help = ['hitamkan']
 handler.tags = ['ai']
 handler.command = /^(hitamkan)$/i
-handler.register = true
+handler.register = false
 handler.limit = 2
 
 export default handler

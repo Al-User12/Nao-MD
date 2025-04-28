@@ -29,7 +29,7 @@ handler.help = ['igstalk']
 handler.tags = ['stalk']
 handler.command = /^(igstalk|instagramstalk)$/i
 
-handler.register = true
+handler.register = false
 handler.limit = true
 
 export default handler

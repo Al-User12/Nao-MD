@@ -54,7 +54,7 @@ handler.help = ['sticker']
 handler.tags = ['sticker']
 
 handler.command = /^s(tic?ker)?(gif)?$/i
-handler.register = true
+handler.register = false
 
 export default handler
 

@@ -34,6 +34,6 @@ handler.help = ['calendar'];
 handler.tags = ['internet'];
 handler.command = /^(calendar|kalender)$/i;
 
-handler.register = true
+handler.register = false
 
 export default handler

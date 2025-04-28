@@ -14,7 +14,7 @@ handler.help = ['cekwarn']
 handler.tags = ['info']
 handler.command = /^(cekwarn)$/i
 
-handler.register = true
+handler.register = false
 
 export default handler
 

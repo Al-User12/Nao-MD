@@ -80,7 +80,7 @@ handler.tags = ['downloader'];
 handler.command = /^(ytmp3)$/i;
 
 handler.limit = 10
-handler.register = true
+handler.register = false
 handler.disable = false
 
 export default handler

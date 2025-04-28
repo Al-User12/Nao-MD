@@ -21,7 +21,7 @@ handler.help = ['dare']
 handler.tags = ['quotes']
 handler.command = /^(dare)$/i
 
-handler.register = true
+handler.register = false
 
 export default handler
 

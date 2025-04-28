@@ -63,7 +63,7 @@ handler.tags = ['downloader']
 handler.command = /^(tt|ttdl|douyin|tiktok(dl)?)$/i;
 
 handler.disable = false
-handler.register = true
+handler.register = false
 handler.limit = true
 
 export default handler

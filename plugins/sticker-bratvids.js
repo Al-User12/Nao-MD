@@ -28,6 +28,6 @@ handler.help = ['bratvid']
 handler.tags = ['sticker']
 handler.command = /^(bratvid|bratvids|bratvideo)$/i
 
-handler.register = true
+handler.register = false
 
 export default handler

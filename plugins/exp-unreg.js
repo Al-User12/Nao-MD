@@ -11,6 +11,6 @@ handler.help = ['', 'ister'].map(v => 'unreg' + v + ' <SN|SERIAL NUMBER>')
 handler.tags = ['xp']
 
 handler.command = /^unreg(ister)?$/i
-handler.register = true
+handler.register = false
 
 export default handler

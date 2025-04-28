@@ -115,7 +115,7 @@ handler.tags = ['internet'];
 handler.command = /^pixiv$/i;
 
 handler.limit = 2
-handler.register = true
+handler.register = false
 
 export default handler
 

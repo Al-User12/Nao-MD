@@ -42,7 +42,7 @@ handler.help = ['tourl']
 handler.tags = ['tools']
 handler.command = /^(tourl|upload)$/i
 
-handler.register = true
+handler.register = false
 
 export default handler
 

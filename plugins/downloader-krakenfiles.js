@@ -44,6 +44,6 @@ handler.tags = ['downloader'];
 handler.command = /^(kfiles|kf|krakenfiles)$/i;
 
 handler.limit = true
-handler.register = true
+handler.register = false
 
 export default handler

@@ -14,7 +14,7 @@ handler.tags = ['downloader']
 handler.command = /^danbooru$/i
 handler.help = ['Danbooru']
 handler.limit = true
-handler.register = true
+handler.register = false
 
 export default handler
 

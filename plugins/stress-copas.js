@@ -38,6 +38,6 @@ if (!text) throw `Masukkan text!`
 handler.command = handler.help = ['genjot', 'nenen', 'wangy', 'curhat', 'perkosa']
 handler.tags = ['stress']
 
-handler.register = true
+handler.register = false
 
 export default handler

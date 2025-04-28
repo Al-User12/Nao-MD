@@ -35,7 +35,7 @@ handler.help = ['gistalk']
 handler.tags = ['stalk']
 handler.command = /^(genshinstalk|gistalk)$/i
 
-handler.register = true
+handler.register = false
 handler.limit = true
 
 export default handler

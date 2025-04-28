@@ -37,7 +37,7 @@ handler.help = ['removebg'];
 handler.tags = ['ai'];
 handler.command = /^(removebg)$/i;
 
-handler.register = true
+handler.register = false
 handler.limit = 3
 
 export default handler

@@ -28,7 +28,7 @@ handler.help = ['toanime'];
 handler.tags = ['ai'];
 handler.command = /^(toanime)$/i;
 
-handler.register = true
+handler.register = false
 handler.limit = 8
 
 export default handler

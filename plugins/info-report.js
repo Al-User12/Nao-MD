@@ -14,7 +14,7 @@ handler.help = ['report', 'request'].map(v => v + ' <teks>')
 handler.tags = ['info']
 handler.command = /^(report|request)$/i
 
-handler.register = true
+handler.register = false
 handler.disable = false
 
 export default handler

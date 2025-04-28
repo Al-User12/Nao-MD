@@ -90,6 +90,6 @@ handler.tags = ['downloader']
 handler.command = /^(spotify(dl)?)$/i
 
 handler.limit = 2
-handler.register = true
+handler.register = false
 
 export default handler

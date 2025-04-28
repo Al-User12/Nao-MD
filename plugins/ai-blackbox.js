@@ -84,6 +84,6 @@ handler.command = /^(blackbox)$/i;
 
 handler.limit = 8
 handler.premium = false
-handler.register = true
+handler.register = false
 
 export default handler

@@ -26,6 +26,6 @@ handler.help = ['qc']
 handler.tags = ['sticker']
 handler.command = /^(qc)$/i
 
-handler.register = true
+handler.register = false
 
 export default handler

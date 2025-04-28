@@ -16,7 +16,7 @@ handler.command = handler.help = ['ip']
 handler.tags = ['tools']
 
 handler.limit = true
-handler.register = true
+handler.register = false
 
 export default handler
 

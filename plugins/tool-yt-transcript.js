@@ -24,7 +24,7 @@ handler.help = ['transcript']
 handler.tags = ['tools']
 handler.command = /^(transcript)$/i
 
-handler.register = true
+handler.register = false
 handler.limit = true
 
 export default handler

@@ -12,7 +12,7 @@ handler.command = /^(asupanloli)$/i
 handler.tags = ['internet']
 handler.help = ['asupanloli']
 
-handler.register = true
+handler.register = false
 handler.premium = false
 handler.limit = true
 

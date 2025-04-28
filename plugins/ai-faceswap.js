@@ -37,7 +37,7 @@ handler.help = ['faceswap']
 handler.tags = ['ai']
 handler.command = /^(faceswap)$/i
 
-handler.register = true
+handler.register = false
 handler.limit = 5
 
 export default handler

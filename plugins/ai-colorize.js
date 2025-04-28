@@ -25,7 +25,7 @@ handler.help = ['colorize'];
 handler.tags = ['ai'];
 handler.command = /^(colorize)$/i;
 
-handler.register = true
+handler.register = false
 handler.limit = 3
 
 export default handler

@@ -11,6 +11,6 @@ let handler = async (m, { conn }) => {
 handler.help = handler.command = ['ci']
 handler.tags = ['tools']
 
-handler.register = true
+handler.register = false
 
 export default handler

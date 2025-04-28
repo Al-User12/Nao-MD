@@ -12,6 +12,6 @@ handler.command = /^(loli)$/i
 handler.tags = ['anime']
 handler.help = ['loli']
 
-handler.register = true
+handler.register = false
 
 export default handler

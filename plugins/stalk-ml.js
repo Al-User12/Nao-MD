@@ -41,7 +41,7 @@ handler.help = ['mlstalk']
 handler.tags = ['stalk']
 handler.command = /^(stalkml|mlstalk)$/i
 
-handler.register = true
+handler.register = false
 handler.limit = true
 
 export default handler
@@ -98,7 +98,7 @@ handler.help = ['mlstalk']
 handler.tags = ['stalk']
 handler.command = /^(stalkml|mlstalk)$/i
 
-handler.register = true
+handler.register = false
 
 export default handler
 */

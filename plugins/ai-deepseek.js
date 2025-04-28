@@ -45,6 +45,6 @@ handler.command = /^(deepseek)$/i
 
 handler.limit = 6
 handler.premium = false
-handler.register = true
+handler.register = false
 
 export default handler

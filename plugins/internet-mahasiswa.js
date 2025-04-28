@@ -38,6 +38,6 @@ handler.help = ['mahasiswa <nama>'];
 handler.tags = ['internet'];
 handler.command = /^(mahasiswa)$/i;
 
-handler.register = true
+handler.register = false
 
 export default handler

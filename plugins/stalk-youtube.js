@@ -38,7 +38,7 @@ handler.help = ['ytstalk']
 handler.tags = ['stalk']
 handler.command = /^(ytstalk|youtubestalk)$/i
 
-handler.register = true
+handler.register = false
 handler.limit = true
 
 export default handler

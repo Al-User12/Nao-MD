@@ -46,6 +46,6 @@ handler.help = ['animeinfo <anime>'];
 handler.tags = ['anime'];
 handler.command = /^(animeinfo)$/i;
 
-handler.register = true
+handler.register = false
 
 export default handler

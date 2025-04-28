@@ -37,7 +37,7 @@ handler.help = ['twitterstalk']
 handler.tags = ['stalk']
 handler.command = /^(twitterstalk|xstalk)$/i
 
-handler.register = true
+handler.register = false
 handler.limit = true
 
 export default handler

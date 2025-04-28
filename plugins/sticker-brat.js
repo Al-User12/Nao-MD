@@ -28,6 +28,6 @@ handler.help = ['brat']
 handler.tags = ['sticker']
 handler.command = /^(brat)$/i
 
-handler.register = true
+handler.register = false
 
 export default handler

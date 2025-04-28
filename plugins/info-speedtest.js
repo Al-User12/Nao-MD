@@ -19,7 +19,7 @@ handler.help = ['speedtest'];
 handler.tags = ['info'];
 handler.command = /^(speedtest)$/i;
 
-handler.register = true
+handler.register = false
 handler.rowner = true
 
 export default handler

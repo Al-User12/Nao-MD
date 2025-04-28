@@ -34,7 +34,7 @@ handler.help = ['ttstalk']
 handler.tags = ['stalk']
 handler.command = /^(ttstalk|tiktokstalk)$/i
 
-handler.register = true
+handler.register = false
 handler.limit = true
 
 export default handler

@@ -66,7 +66,7 @@ handler.help = ['ffstalk']
 handler.tags = ['stalk']
 handler.command = /^(stalkff|ffstalk)$/i
 
-handler.register = true
+handler.register = false
 handler.limit = true
 
 export default handler

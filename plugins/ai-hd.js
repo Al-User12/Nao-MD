@@ -30,7 +30,7 @@ handler.help = ['hd']
 handler.tags = ['ai']
 handler.command = /^(hd)$/i
 
-handler.register = true
+handler.register = false
 handler.limit = 15
 
 export default handler

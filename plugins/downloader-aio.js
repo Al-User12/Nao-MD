@@ -44,7 +44,7 @@ handler.help = ['aio <url>']
 handler.tags = ['downloader']
 handler.command = /^(aio)$/i
 
-handler.register = true
+handler.register = false
 handler.limit = 1
 
 export default handler

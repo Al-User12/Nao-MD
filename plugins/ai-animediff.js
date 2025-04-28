@@ -36,6 +36,6 @@ handler.command = /^(text2img|txt2img)$/i
 
 handler.premium = false
 handler.limit = 15
-handler.register = true
+handler.register = false
 
 export default handler

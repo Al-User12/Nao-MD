@@ -16,6 +16,6 @@ handler.help = ['translate'].map(v => v + ' <bahasa> <teks>')
 handler.tags = ['tools']
 handler.command = /^(tr(anslate)?)$/i
 
-handler.register = true
+handler.register = false
 
 export default handler
